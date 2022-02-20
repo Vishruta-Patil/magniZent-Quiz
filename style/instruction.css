@@ -23,6 +23,7 @@
 
 .star-icon {
   color: var(--star-hover-color);
+  font-size: 2.8rem;
 }
 
 .quiz-btn {
