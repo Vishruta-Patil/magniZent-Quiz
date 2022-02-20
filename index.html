@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/colors.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/utility.css" />
+    <link rel="stylesheet" href="./style/collapseNavbar.css" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <title>magniZent Quiz</title> 
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <div class="header">
+          <div class="logo" style="align-items: baseline; gap: 2rem">
+  
+            <a class="primary-color" href="./index.html">
+              <h2 class="main-title">
+                magni<span class="bold-main-title">Z</span>ent <span class="bold-main-title secondary-color">
+              </h2>
+            </a>
+  
+          </div>
+  
+          <div class="header-main-content">
+            <ul class="flex header-inner-container">
+              <a class="secondary-color" href="./index.html">
+                <li class="header-item">Home</li>
+              </a>
+              <a href="#">
+                <p class="header-item primary-color">Dashboard</p>
+              </a>
+            </ul>
+          </div>
+  
+          <div class="flex icon-container">
+            <div class="icon-unit">
+              <a class="flex-column flex-center secondary-color header-icon" href="./login.html">
+                <span class="material-icons icon"> account_circle </span>
+                
+              </a>
+            </div>
+            <div class="icon-unit">
+              <a class="flex-column flex-center secondary-color header-icon" href="#">
+                <span class="material-icons icon"> equalizer </span>
+                
+              </a>
+            </div>
+            <div class="icon-unit">
+              <a class="flex-column flex-center secondary-color header-icon" href="#">
+                <span class="material-icons icon"> dark_mode </span>
+               
+              </a>
+            </div>
+          </div>
+          <span class="material-icons icon hide-menu menu-logo"> menu </span>
+        </div>
+      </div>
+  
+      <div id="empty-box"></div>
+  
+      <nav class="collape-navbar-container hide-nav">
+        <div class="header-navbar flex justify-between">
+          <h2>magni<span class="secondary-color highlight-letter-header">Z</span>ent</h2>
+          <button class="nav-close-btn"><span class="material-icons icon"> close </span></button>
+  
+        </div>
+        <hr class="hr-line">
+        <div class="navbar-item-container secondary-color">
+          <div class="hide-mini-desktop">
+          <a href="./index.html" class="secondary-color">
+            <div class="navbar-unit flex">
+              <span class="material-icons nav-icon"> home </span>
+              <div class="navbar-unit-title">Home</div>
+            </div>
+          </a>
+          <a href="./index.html#categories-container" class="secondary-color">
+            <div class="navbar-unit flex">
+              <span class="material-icons nav-icon"> dashboard </span>
+              <div class="navbar-unit-title">Dashboard</div>
+            </div>
+          </a>
+        </div>
+          
+            <a href="./login.html" class="secondary-color">
+              <div class="navbar-unit flex">
+                <span class="material-icons nav-icon"> account_circle </span>
+                <div class="navbar-unit-title">Login</div>
+              </div>
+            </a>
+            <a href="./wishlist.html" class="secondary-color">
+              <div class="navbar-unit flex">
+                <span class="material-icons nav-icon"> equalizer </span>
+                <div class="navbar-unit-title">LeaderBoard</div>
+              </div>
+            </a>
+        </div>
+      </nav>
+
+      <div class="hero-container">
+        <div class="img-header-container flex">
+          <img class="hero-img" src="./assets/bg-quiz.svg" alt="" />
+          <div class="content flex-column secondary-color">
+            <div class="primary-color font-lg">
+              Hello and Welcome to magniZent Quiz.
+            </div>
+            <div class="inner-header-content flex-column">
+              <p class="font-md sub-title">
+                Want to test your Knowledge? You have landed perfect place!
+              </p>
+              <p class="font-md">magniZent has 3 variants in the quiz</p>
+              <a href="#categories-container"
+                ><button class="hero-btn">Explore Quizzes</button></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div id="categories-container" class="categories-container">
+          <h2 class="font-lg secondary-color category-header font-header">
+            Categories
+          </h2>
+          <div class="underline-header"></div>
+          <div class="categories-inner-box flex justify-center flex-align-gap wrap">
+            <div class="card basic-card">
+              <div class="basic-card-container">
+                <div class="basic-card-img-container">
+                  <img
+                    class="basic-card-img"
+                    src="./assets/technology1.jpg"
+                    alt="image"
+                  />
+                </div>
+                <div class="basic-card-des card-description">
+                  <h1 class="heading-1">Technology</h1>
+                  <p class="heading-2">
+                    Participate in the knowlegable quiz and test your IQ in
+                    Technology
+                  </p>
+                  <div class="justify-between">
+                    <p class="heading-3">10 Questions</p>
+                    <a href="./instruction.html"
+                      ><button class="hero-btn">Start Quiz</button></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card basic-card">
+              <div class="basic-card-container">
+                <div class="basic-card-img-container">
+                  <img
+                    class="basic-card-img"
+                    src="./assets/sports.jpg"
+                    alt="image"
+                  />
+                </div>
+                <div class="basic-card-des card-description">
+                  <h1 class="heading-1">Sports</h1>
+                  <p class="heading-2">
+                    Participate in the knowlegable quiz and test your IQ in
+                    Sports
+                  </p>
+                  <div class="justify-between">
+                    <p class="heading-3">10 Questions</p>
+                    <a href="./instruction.html"
+                      ><button class="hero-btn">Start Quiz</button></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card basic-card">
+              <div class="basic-card-container">
+                <div class="basic-card-img-container">
+                  <img
+                    class="basic-card-img"
+                    src="./assets/astronomy.jpg"
+                    alt="image"
+                  />
+                </div>
+                <div class="basic-card-des card-description">
+                  <h1 class="heading-1">Astronomy</h1>
+                  <p class="heading-2">
+                    Participate in the knowlegable quiz and test your IQ in
+                    Astronomy
+                  </p>
+                  <div class="justify-between">
+                    <p class="heading-3">10 Questions</p>
+                    <a href="./instruction.html"
+                      ><button class="hero-btn">Start Quiz</button></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
