@@ -12,3 +12,5 @@
 - [Quiz Result](https://magnizent-quiz.netlify.app/result.html)
 - [Signup Page](https://magnizent-quiz.netlify.app/signup.html)
 - [Login Page](https://magnizent-quiz.netlify.app/login.html)
+
+![Demo](./assets/magniZent_Quiz.gif)
