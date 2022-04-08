@@ -34,6 +34,16 @@
   text-align: center;
 }
 
+.result-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2rem;
+}
+
+.result-btn {
+  padding: 1rem 6rem
+}
+
 @media only screen and (max-width: 700px) {
   .quiz-container {
     margin: 5rem 3rem;
